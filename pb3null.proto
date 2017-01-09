@@ -1,0 +1,13 @@
+syntax = "proto3";
+package pb3null;
+option go_package = "pb3null";
+
+message NullInt64 {
+    int64 int64 = 1;
+    bool valid = 2;
+}
+
+message NullString {
+    string string = 1;
+    bool valid = 2;
+}
